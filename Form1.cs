@@ -26,7 +26,7 @@ namespace BTN1
 
         private void btnDangnhap_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "MRTHO" && txtPass.Text == "123")
+            if (txtUsername.Text == "KIEUANH" && txtPass.Text == "123")
             {
                 MessageBox.Show("Chào bạn " + txtUsername.Text + " Bạn đã đăng nhập thành công ", "Thông tin đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 login(true);
